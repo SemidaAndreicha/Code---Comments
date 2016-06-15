@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css"/> <!--links  to stylesheet-->
+		<script language='JavaScript' src='js/jquery-2.2.3.js'></script> <!--links  to JavaScript-->
+	</head>
+
+    <body>
+        <div class='mainScreen' id='screen'> <!--assigning class and id to use for JavaScript and Css -->
+ 
+            <!-- Login Section -->
+            <div class='separator x8'></div>
+            <h2>Login</h2>
+			<form action = "index.php" method = "post">
+            <div class='loginForm form'>
+                <div class='labelLine'>
+                    <div class='label'>Username:</div><div class='textInput'><input name = "username" id='username' value=''></div><br>
+                    <div class='label'>Password:</div><div class='textInput'><input name='password' type='password' value=''></div><br>
+				</div>
+                <div class='commandLine'><br>
+                    <input type='submit' id='loginButton' value='Login' class='commandButton'/>
+                </div>
+            </div>
+			</form>
+		</div>
+	</body>
+</html>
